@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap');
+}
+html{
+  background-color: #E7E7E7;
+}
+nav .navbar{
+  margin: auto;
+  width: 80%;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  
+}
+.navbar a:hover{
+  color: #EBBD63;
+  transition: 0.3s;
+}
+.navbar h1{
+    font-size: 2rem;
+    color: white;
+}
+.navbar ul {
+    
+  flex: 0.5;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bolder;
+}
+#background{
+    position: absolute;
+    height: 100vh;
+    top: 0%;
+    width: 100%;
+    z-index: -1;
+}
+.homepage{
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.home-left {
+  width: 50%;
+  margin-bottom: 2rem;
+  
+  
+}
+.homepage p{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  
+  font-family: 'Merriweather', serif;
+  
+}
+.homepage h1{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.home-left button{
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: #EBBD63;
+  color: #E7E7E7;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+.home-left button:hover{
+  background-color: #E7E7E7;
+  color: #EBBD63;
+  transition: 0.2s;
+}
+.home-right img{
+  border-radius: 1rem;
+
+}
+
+/* End of page 1  */
+.bodypage{
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.body-left {
+  width: 50%;
+  margin-bottom: 2rem;
+  
+  
+}
+.bodypage p{
+  font-size: 35px;
+  font-weight: bold;
+  color: #282830;
+  /* letter-spacing: 0px; */
+  
+}
+.section2 h1{
+  color: #3D8EB9;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.bodypage h2{
+  color: #FF6766;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+#aka{
+  font-size: 20px;
+  color: #282830;
+
+}
+
+.body-left button{
+  margin-top: 30px;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  background-color: #EBBD63;
+  color: #E7E7E7;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+.body-left button:hover{
+  background-color: #E7E7E7;
+  color: #EBBD63;
+  transition: 0.2s;
+}
+.body-right img{
+  border-radius: 1rem;
+
+}
+/* END OF PAGE2 */
+.section3{
+  height: 100vh;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.card-about{
+  width: 25%;
+  margin: auto;
+}
+.card-about img{
+  width: 15rem;
+  height: 18rem;
+}
+.section3 p{
+  font-size: 15px  ;
+  
+  
+  color: #282830;
+  
+  
+}
+.section3 h1{
+  color: #282830;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: auto;
+  text-align: center ;
+  padding: 2rem 5rem ;
+}
+.section3 h2{
+  font-size: 13px;
+  font-weight: bold;
+  color: #60646D;
+  
+  
+}
+.section3 h3{
+  color: #282830;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.section3 span{
+  color: #888888;
+}
+.card-inf{  
+  display: flex;
+  padding-top: 3rem;
+  
+}
+.section3 img{
+  border-radius: 0.5rem;
+}
+.section3 button{
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #EBBD63;
+  color: #E7E7E7;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+.section3 button:hover{
+  background-color: #E7E7E7;
+  color: #EBBD63;
+  transition: 0.2s;
+}
+/* End of section 3 */
